@@ -461,7 +461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 35c1c886898f94ca0833cccc2e3388a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.722015
+      value: 56.04
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 35c1c886898f94ca0833cccc2e3388a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -469,7 +469,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 35c1c886898f94ca0833cccc2e3388a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.175003
+      value: 55.58
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 35c1c886898f94ca0833cccc2e3388a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -807,6 +807,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!4 &393823344
 Transform:
   m_ObjectHideFlags: 0
@@ -913,6 +914,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 50
   rotSpeed: 9
+  lookAhead: 10
 --- !u!4 &398102927
 Transform:
   m_ObjectHideFlags: 0
@@ -1398,6 +1400,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 15
   rotSpeed: 5
+  lookAhead: 10
 --- !u!4 &566176380
 Transform:
   m_ObjectHideFlags: 0
@@ -1504,6 +1507,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 50
   rotSpeed: 9
+  lookAhead: 10
 --- !u!4 &608726355
 Transform:
   m_ObjectHideFlags: 0
@@ -2771,6 +2775,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!4 &1203057290
 Transform:
   m_ObjectHideFlags: 0
@@ -4103,6 +4108,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 15
   rotSpeed: 5
+  lookAhead: 10
 --- !u!4 &1735108864
 Transform:
   m_ObjectHideFlags: 0
@@ -4209,6 +4215,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 40
   rotSpeed: 3
+  lookAhead: 10
 --- !u!4 &1738994961
 Transform:
   m_ObjectHideFlags: 0
@@ -4544,6 +4551,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!4 &1966682623
 Transform:
   m_ObjectHideFlags: 0
@@ -5302,6 +5310,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 50
   rotSpeed: 9
+  lookAhead: 10
 --- !u!54 &2713447972708953234
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6376,8 +6385,9 @@ MonoBehaviour:
   - {fileID: 314632573}
   - {fileID: 2110731474}
   - {fileID: 974317834}
-  speed: 40
+  speed: 25
   rotSpeed: 3
+  lookAhead: 10
 --- !u!54 &7863693248642204186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6465,6 +6475,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 15
   rotSpeed: 5
+  lookAhead: 10
 --- !u!54 &7871142010654116012
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6694,6 +6705,7 @@ MonoBehaviour:
   - {fileID: 974317834}
   speed: 15
   rotSpeed: 10
+  lookAhead: 10
 --- !u!54 &9048989675280529227
 Rigidbody:
   m_ObjectHideFlags: 0
