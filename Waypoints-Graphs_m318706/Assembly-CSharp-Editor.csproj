@@ -78,8 +78,8 @@
     <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Editor\Utils\FxStyles.cs" />
