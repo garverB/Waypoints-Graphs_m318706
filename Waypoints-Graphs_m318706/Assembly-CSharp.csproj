@@ -83,6 +83,7 @@
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
     <Compile Include="Assets\Graphs\Node.cs" />
+    <Compile Include="Assets\Graphs\FollowWayPoint.cs" />
     <Compile Include="Assets\Graphs\Graph.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\TANKASSETS\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
