@@ -7,7 +7,7 @@ public class Graph
 {
     List<Edge> edges = new List<Edge>();
     List<Node> nodes = new List<Node>();
-    List<Node> pathList = new List<Node>();
+    public List<Node> pathList = new List<Node>();
 
     public Graph(){}
 
@@ -30,7 +30,7 @@ public class Graph
         }
     }
 
-    Node FindNode(GameObject id)
+    private Node FindNode(GameObject id)
     {
         foreach (Node n in nodes) 
         {
@@ -54,7 +54,7 @@ public class Graph
 
         List<Node> open = new List<Node>();
         List<Node> closed = new List<Node>();
-        float tentative_g_score = 0;
+        float tentative_g_score = 0.0f;
         bool tentative_is_better;
 
         start.g = 0;
@@ -108,7 +108,7 @@ public class Graph
         return false;
     }
 
-    public void ReconstructPath(Node startId, Node endId)
+    private void ReconstructPath(Node startId, Node endId)
     {
         pathList.Clear();
         pathList.Add(endId);
