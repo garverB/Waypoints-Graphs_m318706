@@ -30,11 +30,17 @@ public class Graph
         }
     }
 
+    public GameObject getPathPoint(int index)
+    {
+
+        return pathList[index].getID();
+    }
+
     private Node FindNode(GameObject id)
     {
         foreach (Node n in nodes) 
         {
-            if(n.getId() == id)
+            if(n.getID() == id)
             {
                 return n;
             }
@@ -44,6 +50,12 @@ public class Graph
 
     public bool AStar(GameObject startId, GameObject endId)
     {
+        if(startId == endId)
+        {
+            pathList.Clear();
+            return false;
+        }
+
         Node start = FindNode(startId);
         Node end = FindNode(endId);
 
@@ -66,7 +78,7 @@ public class Graph
         {
             int i = lowestF(open);
             Node thisNode = open[i];
-            if(thisNode.getId() == endId)
+            if(thisNode.getID() == endId)
             {
                 ReconstructPath(start, end);
                 return true;
@@ -124,7 +136,7 @@ public class Graph
 
     float distance (Node a, Node b)
     {
-        return (Vector3.SqrMagnitude(a.getId().transform.position - b.getId().transform.position));
+        return (Vector3.SqrMagnitude(a.getID().transform.position - b.getID().transform.position));
     }
 
     int lowestF(List<Node> l)
